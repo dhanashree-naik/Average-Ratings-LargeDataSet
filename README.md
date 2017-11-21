@@ -1,9 +1,9 @@
 # Average-Ratings-LargeDataSet
 
-Task1: 
+# Task1: 
 calculate each movie’s average rating based on gender of the user. 
 
-#INPUT data:
+# INPUT-data:
 https://grouplens.org/datasets/movielens/
 - ratings.dat 
 - users.dat 
@@ -14,12 +14,12 @@ Note: please specify the path to users.dat file and path to ratings.dat file in 
 
 for example : spark-submit --class "Dhanashree_Naik_task1" --master local[2] target/scala-2.10/Dhanashree_Naik_task1.jar /home/dhanashree/Dhanashree_Naik_task1/src/main/scala/users.dat /home/dhanashree/Dhanashree_Naik_task1/src/main/scala/ratings.dat 
 
-#OUTPUT task 1:
+# OUTPUT task 1:
 The result is ordering by movieId, gender in ascending order
 The result file includes three columns movieId, gender, avg. ratings.
 
 
-Task_2 :
+# Task_2 :
 calculate the average rating of each movie genres based on the gender of the user.
 #INPUT data:
 - ratings.dat, 
@@ -33,7 +33,7 @@ Note: please specify the path to users.dat file ,path to ratings.dat file and pa
 
 for example:   spark-submit --class "Dhanashree_Naik_task2" --master local[2] target/scala-2.10/Dhanashree_Naik_task2.jar /home/dhanashree/Dhanashree_Naik_task2/src/main/scala/users.dat /home/dhanashree/Dhanashree_Naik_task2/src/main/scala/ratings.dat /home/dhanashree/Dhanashree_Naik_task2/src/main/scala/movies.dat
 
-#OUTPIT format - task 2
+# OUTPIT format - task 2
 There are three columns in the result file. The first column is the genres’s name.
 the second column is the gender and the third column is the avg. ratings. Also,
 the file should be sorted according to the genres' name in ascending order.
