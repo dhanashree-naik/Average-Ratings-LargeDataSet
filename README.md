@@ -1,6 +1,6 @@
 # Average-Ratings-LargeDataSet
 
-Task1: (40%)
+Task1: 
 calculate each movie’s average rating based on gender of the user. 
 
 #INPUT data:
